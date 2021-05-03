@@ -45,6 +45,7 @@ export const BotSide = styled.div`
       > .language {
         border-radius:50%;
         width:16px;
+        margin-right:2px;
         height:16px;
       
       }
