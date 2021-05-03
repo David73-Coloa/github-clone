@@ -48,7 +48,7 @@ export default function Profile() {
     return () => document.title = 'Github-clone'
   },[username])
 
-  if (data?.error) return <h1>{data.error}</h1> 
+    if (data?.error) return <h1>{data.error}</h1>
     if (!data.user || !data.repositories) return <Loading isLoading={isLoading}/>
 
     const TabContent = () => {
@@ -95,7 +95,6 @@ export default function Profile() {
                 {data.repositories.map(repositorie => (
                   <RepoCard
                     key={repositorie.name}
-
                     username={repositorie.owner.login}
                     forks={repositorie.forks}
                     stars={repositorie.stargazers_count}
