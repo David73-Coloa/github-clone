@@ -1,6 +1,6 @@
 
 export const dark = {
-  primary:'#282a34',
+  primary:'#1d1d1d',
   header:'#181818',
   text:'#fff',
   search:'#000',
