@@ -10,14 +10,15 @@ import 'react-calendar-heatmap/dist/styles.css';
 const App = () => {
   return (
     <ThemeStore>
-    <BrowserRouter>
-      <Theme>
-        <Header />
-        <Routes/>  
-        <Footer/> 
-      </Theme> 
-    </BrowserRouter>
+      <BrowserRouter>
+        <Theme>
+          <Header />
+          <Routes/>  
+          <Footer/> 
+        </Theme> 
+      </BrowserRouter>
     </ThemeStore> 
+
   );
 };
 
