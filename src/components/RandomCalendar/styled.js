@@ -6,6 +6,7 @@ export const Container = styled.div`
   align-items: flex-end;
   overflow: hidden;
   margin-top:30px;
+  padding: 16px 20px 0 10px;
   border: 1px solid var(--gray);
   border-radius: 6px;
   .wrapper {
